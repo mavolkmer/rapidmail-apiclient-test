@@ -1,0 +1,23 @@
+{
+    "name": "mavsolutions/rapidmail-test",
+    "description": "minimalistic testing of rapidmail-apiv3-client-php",
+    "license": "GPL-3.0-or-later",
+    "type": "project",
+    "require": {
+        "guzzlehttp/guzzle": "^6.3",
+        "rapidmail/rapidmail-apiv3-client-php": "^1.1.4",
+        "vlucas/phpdotenv": "^5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mavsolutions\\RapidmailTest\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Markus Volkmer"
+        }
+    ],
+    "minimum-stability": "stable"
+}
+
